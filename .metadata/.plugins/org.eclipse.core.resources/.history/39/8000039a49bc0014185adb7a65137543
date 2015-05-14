@@ -1,0 +1,13 @@
+package com.fashion.zillah;
+
+public class FashionItems {
+	final String name;
+	final int image;
+	
+	public FashionItems(String name, int image) {
+		// TODO Auto-generated constructor stub
+		this.name = name;
+		this.image = image;
+	}
+
+}

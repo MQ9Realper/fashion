@@ -1,0 +1,14 @@
+1426662725824	Rename type 'UsersTable'
+1426668469399	Rename type 'CreateAccountActivity'
+1426668915445	Delete element
+1426669021565	Delete element
+1426669085405	Rename field 'txtEmail'
+1426669112995	Rename field 'txtFirstName'
+1426669125957	Rename field 'txtLastName'
+1426669138093	Rename field 'txtPhoneNumber'
+1426669153262	Rename field 'txtUserName'
+1426669166021	Rename field 'txtPassword'
+1426669176924	Rename field 'txtConfirmPassword'
+1426699601351	Rename field 'btnCreateAccount'
+1426705128488	Delete element
+1426752494479	Rename type 'AllDesignsTabActivity'

@@ -1,0 +1,115 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dp" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <TextView 
+            android:id="@+id/label_request_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/request_id_label"
+            android:textColor="#800000"
+            android:textStyle="bold"/>
+        <TextView 
+            android:id="@+id/txt_request_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="#800000"/>
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <TextView 
+            android:id="@+id/label_request_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/design_name_label"
+            android:textColor="#800000"
+            android:textStyle="bold"/>
+        <TextView 
+            android:id="@+id/txt_request_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="#800000"/>
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <TextView 
+            android:id="@+id/label_request_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/description_label"
+            android:textColor="#800000"
+            android:textStyle="bold"/>
+        <TextView 
+            android:id="@+id/txt_request_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="#800000"/>
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRo41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <TextView 
+            android:id="@+id/label_request_height"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/height_label"
+            android:textColor="#800000"
+            android:textStyle="bold"/>
+        <TextView 
+            android:id="@+id/txt_request_height"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="#800000"/>
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <TextView 
+            android:id="@+id/label_request_waist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/waist_label"
+            android:textColor="#800000"
+            android:textStyle="bold"/>
+        <TextView 
+            android:id="@+id/txt_request_waist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="#800000"/>
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <TextView 
+            android:id="@+id/label_request_bust"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bust_label"
+            android:textColor="#800000"
+            android:textStyle="bold"/>
+        <TextView 
+            android:id="@+id/txt_request_bust"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="#800000"/>
+    </TableRow>
+
+</TableLayout>

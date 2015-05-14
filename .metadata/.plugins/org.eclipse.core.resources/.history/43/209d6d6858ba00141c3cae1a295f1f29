@@ -1,0 +1,33 @@
+package com.fashion.zillah;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
+
+public class MyDesignsActivity extends Activity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_my_designs);
+		ListView list = (ListView)findViewById(R.id.listView1);
+		String[] designs = new String[] {"Smart Casual", "Official", "Funky Wear", "Dinner Wear", "Sleeping Attire"};
+		ArrayAdapter<String> adapter = new ArrayAdapter<String>(MyDesignsActivity.this, android.R.layout.simple_list_item_2, designs);
+		list.setAdapter(adapter);
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		
+		return true;
+	}
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		return false;
+		
+	}
+}

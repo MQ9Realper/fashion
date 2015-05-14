@@ -1,0 +1,29 @@
+1427255964227	Extracts string 'null' into R.string.request_id_label
+1427256055533	Extracts string 'null' into R.string.design_name_label
+1427256127277	Extracts string 'null' into R.string.description_label
+1427256151335	Extracts string 'null' into R.string.height_label
+1427256181938	Extracts string 'null' into R.string.waist_label
+1427256202806	Extracts string 'null' into R.string.bust_label
+1427256386005	Rename field 'code'
+1427256404143	Rename field 'name'
+1427256442630	Rename field 'bust'
+1427256461322	Rename field 'waist'
+1427256477906	Rename field 'region'
+1427256593568	Rename field 'continent'
+1427256613032	Rename field 'name'
+1427265249877	Rename field 'textView1'
+1427265344308	Rename field 'textView2'
+1427268020333	Extracts string 'null' into R.string.label_designer_id
+1427268062884	Extracts string 'null' into R.string.label_designer_firstname
+1427268116482	Extracts string 'null' into R.string.label_designer_lastname
+1427268138928	Extracts string 'null' into R.string.label_designer_contact
+1427268162062	Extracts string 'null' into R.string.label_designer_location
+1427269056158	Extracts string 'null' into R.string.label_client_id
+1427269889142	Extracts string 'null' into R.string.hint_new_design_name
+1427269918873	Extracts string 'null' into R.string.hint_new_design_price
+1427270616584	Delete element
+1427271662951	Rename resource 'my_designs.xml'
+1427271793977	Extracts string 'null' into R.string.label_new_design_id
+1427271819633	Extracts string 'null' into R.string.label_new_design_name
+1427271847097	Extracts string 'null' into R.string.label_new_design_price
+1427274156944	Delete element

@@ -1,0 +1,15 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffd5d5"
+    android:orientation="horizontal" >
+
+    <ListView
+        android:id="@+id/clientsList"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:divider="#800000"
+        android:dividerHeight="2dp" >
+    </ListView>
+
+</LinearLayout>

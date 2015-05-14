@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fashion</string>
+    <string name="space">"  "</string>
+    <string name="signin">Login</string>
+    <string name="signin_question">You Dont Have An Account?</string>
+    <string name="create_account">Create Account</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="title_activity_create_account">Create Designer Account</string>
+    <string name="title_activity_test">Design Gallery</string>
+    <string name="designer">Designer</string>
+    <string name="client">Client</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="location_hint">Location</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="title_activity_my_designs">My Designs</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_view_gallery">Design Gallery</string>
+    <string name="action_add_new_design">Add New Design</string>
+    <string name="title_activity_designer_signup">Designer Signup</string>
+    <string name="title_activity_client_signup">Client Signup</string>
+    <string name="title_activity_designer_dashboard">Designer Dashboard</string>
+    <string name="title_activity_all_designs_tab">All Designs</string>
+    <string name="title_activity_my_clients">My Clients</string>
+    <string name="title_activity_design_requests">Design Requests</string>
+    <string name="title_activity_client_dashboard">Client Dashboard</string>
+    <string name="title_activity_designers">Designers</string>
+    <string name="enter_request_name">Enter Request Name</string>
+    <string name="enter_request_description">Enter Request Description</string>
+    <string name="height">Height(meters)</string>
+    <string name="waist">Waist(inches)</string>
+    <string name="bust">Bust(inches)</string>
+    <string name="request_id_label">"Request ID:   "</string>
+    <string name="design_name_label">"Design Name: "</string>
+    <string name="description_label">"Description: "</string>
+    <string name="height_label">"Height: "</string>
+    <string name="waist_label">Waist</string>
+    <string name="bust_label">"Bust: "</string>
+    <string name="label_designer_id">Designer ID:</string>
+    <string name="label_designer_firstname">First Name:</string>
+    <string name="label_designer_lastname">Last Name</string>
+    <string name="label_designer_contact">Contacts:</string>
+    <string name="label_designer_location">Location</string>
+    <string name="label_client_id">Client ID</string>
+    <string name="hint_new_design_name">Design Name</string>
+    <string name="hint_new_design_price">Design Price (Ksh)</string>
+    <string name="label_new_design_id">Design ID:</string>
+    <string name="label_new_design_name">Design Name:</string>
+    <string name="label_new_design_price">Design Price:</string>
+    <string name="title_activity_client_count">Client Count</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

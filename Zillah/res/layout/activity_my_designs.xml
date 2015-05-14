@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffd5d5"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/txt_new_design_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_new_design_name" >
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/txt_new_design_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_new_design_price" />
+
+    <Button
+        android:id="@+id/btnSaveDesign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/signup_button"
+        android:text="@android:string/ok"
+        android:textColor="#ffffff" />
+
+    <ListView
+        android:id="@+id/designsList"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="#800000"
+        android:dividerHeight="2dp" >
+    </ListView>
+
+</LinearLayout>

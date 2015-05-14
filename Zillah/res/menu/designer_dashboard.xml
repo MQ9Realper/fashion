@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.fashion.zillah.DesignerDashboardActivity" >
+
+    <item
+        android:id="@+id/action_new_design"
+        android:orderInCategory="100"
+        android:showAsAction="always|withText"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/action_add_new_design"/>
+
+</menu>

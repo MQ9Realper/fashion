@@ -1,0 +1,49 @@
+package com.fashion.zillah;
+
+import android.app.ActionBar;
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.widget.ArrayAdapter;
+import android.widget.GridView;
+import android.widget.ListAdapter;
+
+public class DesignGalleryActivity extends Activity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_design_gallery);
+		
+		// Set Background for the ActionBar
+        ActionBar actionbar = getActionBar();
+        actionbar.setBackgroundDrawable(getResources().getDrawable(R.drawable.site_bg_maroon));
+        actionbar.setDisplayHomeAsUpEnabled(true);
+        
+        GridView view = (GridView)findViewById(R.id.gridView1);
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.id.gridView1);
+        view.setAdapter(adapter);
+        
+          
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.test, menu);
+		return true;
+	}
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		// Handle action bar item clicks here. The action bar will
+		// automatically handle clicks on the Home/Up button, so long
+		// as you specify a parent activity in AndroidManifest.xml.
+		int id = item.getItemId();
+		if (id == R.id.action_settings) {
+			return true;
+		}
+		return super.onOptionsItemSelected(item);
+	}
+}

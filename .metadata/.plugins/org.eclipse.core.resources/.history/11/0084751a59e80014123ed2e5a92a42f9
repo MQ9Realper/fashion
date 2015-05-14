@@ -1,0 +1,67 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffd5d5"
+    android:padding="10dp" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Client Count:  "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#800000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_client_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Client Count"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#800000" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clients As Of:  "
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#800000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_client_count_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#800000" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:colspan="2"
+            android:background="#800000" >
+        </LinearLayout>
+    </TableRow>
+
+</TableLayout>
